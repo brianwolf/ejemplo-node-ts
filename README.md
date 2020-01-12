@@ -14,3 +14,7 @@
 ## Transpilar codigo
 
 * Ejecutar `npm run build`
+
+## Pagina ejemplo
+
+[Tutorial](http://developinginspanish.com/2019/08/11/como-y-por-que-deberias-usar-typescript-con-node-y-express/)
