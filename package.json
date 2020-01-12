@@ -1,0 +1,23 @@
+{
+  "name": "prueba-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prod": "tsc && nodejs ./build/app.js",
+    "dev": "ts-node-dev --respawn --transpileOnly app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "1.0.0-pre.44"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "log4js": "6.1.0",
+    "typescript": "^3.7.4",
+    "@types/express": "^4.11.1"
+  }
+}
